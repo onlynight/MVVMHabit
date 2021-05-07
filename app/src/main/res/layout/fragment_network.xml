@@ -11,9 +11,9 @@
             name="viewModel"
             type="NetWorkViewModel" />
 
-        <variable
-            name="adapter"
-            type="BindingRecyclerViewAdapter" />
+<!--        <variable-->
+<!--            name="adapter"-->
+<!--            type="BindingRecyclerViewAdapter" />-->
 
         <import type="me.goldze.mvvmhabit.binding.viewadapter.recyclerview.LayoutManagers" />
 
@@ -35,14 +35,14 @@
             binding:tr_head_height="80dp"
             binding:tr_wave_height="80dp">
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                binding:adapter="@{adapter}"
-                binding:itemBinding="@{viewModel.itemBinding}"
-                binding:items="@{viewModel.observableList}"
-                binding:layoutManager="@{LayoutManagers.linear()}"
-                binding:lineManager="@{LineManagers.horizontal()}" />
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                binding:adapter="@{adapter}"-->
+<!--                binding:itemBinding="@{viewModel.itemBinding}"-->
+<!--                binding:items="@{viewModel.observableList}"-->
+<!--                binding:layoutManager="@{LayoutManagers.linear()}"-->
+<!--                binding:lineManager="@{LineManagers.horizontal()}" />-->
 
         </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
 

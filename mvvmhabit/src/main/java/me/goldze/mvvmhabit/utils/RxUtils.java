@@ -2,10 +2,11 @@ package me.goldze.mvvmhabit.utils;
 
 import android.content.Context;
 
-import com.trello.rxlifecycle2.LifecycleProvider;
-import com.trello.rxlifecycle2.LifecycleTransformer;
-
 import androidx.fragment.app.Fragment;
+
+import com.trello.rxlifecycle4.LifecycleProvider;
+import com.trello.rxlifecycle4.LifecycleTransformer;
+
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
 import io.reactivex.ObservableTransformer;
